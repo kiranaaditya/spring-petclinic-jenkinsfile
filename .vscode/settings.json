@@ -1,0 +1,17 @@
+{
+    "jenkins-runner.jobs": {
+      "ide": {
+        "runWith": "pipelines-7080",
+        "name": "ide",
+        "isDefault": true
+      }
+    },
+    "jenkins-runner.hostConfigs": {
+      "pipelines-7080": {
+        "url": "http://kaditya1d.mylabserver.com:8081/",
+        "user": "admin",
+        "password": "Kiran@2020",
+        "useCrumbIssuer": true
+      }
+    }
+}
